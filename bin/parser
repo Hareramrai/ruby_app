@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# This variable contains absolute path of this `ruby_app` script
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+
+ruby $DIR/../lib/parser.rb $1
